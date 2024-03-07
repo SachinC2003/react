@@ -1,0 +1,17 @@
+body{
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  background-color: blueviolet;
+  color: black;
+  height: 100px;
+  width: 100px;
+  border-radius: 5rem;
+  font-size: 60rem;
+}
+count{
+  height: 50px;
+  width: 50px;
+}
