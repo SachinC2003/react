@@ -5,3 +5,16 @@ table td button {
 table td{
     border : 1px solid black;
 }
+/* Add this CSS to your stylesheet */
+@media screen and (max-width: 768px) {
+    .border-2 {
+        font-size: 14px;
+    }
+    .w-16, .h-16 {
+        width: 40px;
+        height: 40px;
+    }
+    .bg-slate-500 {
+        padding: 10px;
+    }
+}
