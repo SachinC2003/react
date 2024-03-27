@@ -28,7 +28,8 @@ export default function Game({player1,player2}) {
             const [a, b, c] = combination;
             
             if (newBoard[a]!=null && newBoard[a] === newBoard[b] && newBoard[a] === newBoard[c]) {
-                setStatus(`Player ${newBoard[a]} wins!`);
+                if(newBoard[a] === 'X')  setStatus(`Player ${player1} wins!`);
+                else       setStatus(`Player ${player2} wins!`);
                 if(board[a] === 'X')   setCountX(countX => countX+1)
                 else setCountO(countO => countO+1)
                 console.log(`Player ${newBoard[a]} wins!`);
